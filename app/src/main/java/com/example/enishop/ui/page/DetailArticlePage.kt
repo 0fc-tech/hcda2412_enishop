@@ -23,11 +23,10 @@ import com.example.enishop.ui.theme.Typography
 @Composable
 fun DetailArticlePage(modifier: Modifier = Modifier) {
     val article = ArticleRepository.getArticle(1)
-    val painter = rememberAsyncImagePainter(article.urlImage)
     Scaffold {innerPadding->
         Column(Modifier.padding(innerPadding)) {
             //Faire le contenu
-            Image(painter,
+            AsyncImage(article.urlImage,
                 contentDescription = article.urlImage,
                 modifier=Modifier.height(200.dp)
             )

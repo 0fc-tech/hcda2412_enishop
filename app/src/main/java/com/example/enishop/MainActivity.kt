@@ -21,6 +21,7 @@ import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import coil3.compose.rememberAsyncImagePainter
 import com.example.enishop.repository.ArticleRepository
+import com.example.enishop.ui.page.AddArticlePage
 import com.example.enishop.ui.page.DetailArticlePage
 import com.example.enishop.ui.theme.ENIShopTheme
 import com.example.enishop.ui.theme.Typography
@@ -31,7 +32,8 @@ class MainActivity : ComponentActivity() {
         enableEdgeToEdge()
         setContent {
             ENIShopTheme {
-                DetailArticlePage()
+                //DetailArticlePage()
+                AddArticlePage()
             }
         }
     }
