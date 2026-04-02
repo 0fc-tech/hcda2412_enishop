@@ -1,0 +1,24 @@
+package com.example.enishop.di
+
+import androidx.lifecycle.ViewModel
+import androidx.lifecycle.ViewModelProvider
+import androidx.lifecycle.ViewModelProvider.AndroidViewModelFactory.Companion.APPLICATION_KEY
+import androidx.lifecycle.viewmodel.CreationExtras
+
+//object VMFactory {
+//    val Factory: ViewModelProvider.Factory = object : ViewModelProvider.Factory {
+//        @Suppress("UNCHECKED_CAST")
+//        override fun <T : ViewModel> create(
+//            modelClass: Class<T>,
+//            extras: CreationExtras
+//        ): T {
+//            // Get the Application object from extras
+//        //val application = checkNotNull(extras[APPLICATION_KEY])
+//        //    when(modelClass){
+//        //        //MyViewModel::class.java -> return MyViewModel(
+//        //        //    MyRepository()
+//        //        //) as T
+//        //    }
+//        //}
+//    }
+//}

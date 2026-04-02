@@ -4,7 +4,7 @@ plugins {
 }
 
 android {
-    namespace = "com.example.enishop"
+    namespace = "com.example.tpmod4lancerde"
     compileSdk {
         version = release(36) {
             minorApiLevel = 1
@@ -12,7 +12,7 @@ android {
     }
 
     defaultConfig {
-        applicationId = "com.example.enishop"
+        applicationId = "com.example.tpmod4lancerde"
         minSdk = 24
         targetSdk = 36
         versionCode = 1
@@ -55,8 +55,6 @@ dependencies {
     androidTestImplementation(libs.androidx.compose.ui.test.junit4)
     debugImplementation(libs.androidx.compose.ui.tooling)
     debugImplementation(libs.androidx.compose.ui.test.manifest)
-    implementation(libs.coil.compose)
-    implementation("io.coil-kt.coil3:coil-network-okhttp:3.4.0")
     implementation(libs.androidx.lifecycle.viewmodel.compose)
 
 }

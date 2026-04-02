@@ -23,6 +23,7 @@ import coil3.compose.rememberAsyncImagePainter
 import com.example.enishop.repository.ArticleRepository
 import com.example.enishop.ui.page.AddArticlePage
 import com.example.enishop.ui.page.DetailArticlePage
+import com.example.enishop.ui.page.ListArticlesPage
 import com.example.enishop.ui.theme.ENIShopTheme
 import com.example.enishop.ui.theme.Typography
 
@@ -33,7 +34,8 @@ class MainActivity : ComponentActivity() {
         setContent {
             ENIShopTheme {
                 //DetailArticlePage()
-                AddArticlePage()
+                //AddArticlePage()
+                ListArticlesPage()
             }
         }
     }

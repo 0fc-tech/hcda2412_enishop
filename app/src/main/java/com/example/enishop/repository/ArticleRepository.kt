@@ -10,6 +10,7 @@ object ArticleRepository {
     fun getArticle(id:Long): Article{
         return articleDaoMemory.findById(id)
     }
+    fun getArticles(): List<Article> = articleDaoMemory.getAll();
     fun addArticle(article: Article): Long{
         return articleDaoMemory.insert(article)
     }
