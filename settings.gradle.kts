@@ -26,3 +26,4 @@ rootProject.name = "ENIShop"
 include(":app")
 include(":tpmod2filmserie")
 include(":tpmod4lancerde")
+include(":mod6datastore")
