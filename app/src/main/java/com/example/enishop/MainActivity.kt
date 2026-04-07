@@ -4,28 +4,19 @@ import android.os.Bundle
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
 import androidx.activity.enableEdgeToEdge
-import androidx.compose.foundation.Image
-import androidx.compose.foundation.layout.Column
-import androidx.compose.foundation.layout.Row
-import androidx.compose.foundation.layout.Spacer
-import androidx.compose.foundation.layout.fillMaxSize
-import androidx.compose.foundation.layout.fillMaxWidth
-import androidx.compose.foundation.layout.height
-import androidx.compose.foundation.layout.padding
-import androidx.compose.material3.Button
-import androidx.compose.material3.Scaffold
-import androidx.compose.material3.Text
+
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
-import androidx.compose.ui.tooling.preview.Preview
-import androidx.compose.ui.unit.dp
-import coil3.compose.rememberAsyncImagePainter
-import com.example.enishop.repository.ArticleRepository
+import androidx.navigation.NavHostController
+import androidx.navigation.compose.NavHost
+import androidx.navigation.compose.composable
+import androidx.navigation.compose.rememberNavController
+import androidx.navigation.toRoute
 import com.example.enishop.ui.page.AddArticlePage
 import com.example.enishop.ui.page.DetailArticlePage
 import com.example.enishop.ui.page.ListArticlesPage
 import com.example.enishop.ui.theme.ENIShopTheme
-import com.example.enishop.ui.theme.Typography
+import kotlinx.serialization.Serializable
 
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -33,26 +24,40 @@ class MainActivity : ComponentActivity() {
         enableEdgeToEdge()
         setContent {
             ENIShopTheme {
+                ContainerNavigation()
                 //DetailArticlePage()
                 //AddArticlePage()
-                ListArticlesPage()
+                //ListArticlesPage()
             }
         }
     }
 }
 
+//ICI créer le contenur de navigation
 @Composable
-fun Greeting(name: String, modifier: Modifier = Modifier) {
-    Text(
-        text = "Hello $name!",
-        modifier = modifier
-    )
+fun ContainerNavigation(modifier: Modifier = Modifier) {
+    val navHostController: NavHostController = rememberNavController()
+
+    NavHost(
+        startDestination = "list",
+        navController = navHostController,
+    ) {
+        composable("list") {
+            ListArticlesPage(
+                onClickAdd = { navHostController.navigate("add") },
+                onClickDetail = { navHostController.navigate(DetailNav(it),) })
+        }
+        composable("add") {
+            AddArticlePage()
+        }
+        composable<DetailNav>() {backStackEntry ->
+            val detailNav = backStackEntry.toRoute<DetailNav>()
+            DetailArticlePage(idArticle = detailNav.idArticle)
+        }
+    }
+
 }
 
-@Preview(showBackground = true)
-@Composable
-fun GreetingPreview() {
-    ENIShopTheme {
-        Greeting("Android")
-    }
-}
+@Serializable
+data class DetailNav(val idArticle:Long){}
+

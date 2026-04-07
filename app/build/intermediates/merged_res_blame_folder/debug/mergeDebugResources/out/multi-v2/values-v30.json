@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.enishop.app-mergeDebugResources-34:/values-v30/values-v30.xml",
+            "outputFile": "com.example.enishop.app-mergeDebugResources-38:/values-v30/values-v30.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\qrouet\\.gradle\\caches\\9.3.1\\transforms\\1a36d2a5f9dba8fa8041957f781e6561\\workspace\\transformed\\material3-release\\res\\values-v30\\values-v30.xml",
+                    "source": "C:\\Users\\qrouet\\.gradle\\caches\\9.3.1\\transforms\\75f31e56a1ceb5054d1f3ef909b45239\\workspace\\transformed\\material3-release\\res\\values-v30\\values-v30.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

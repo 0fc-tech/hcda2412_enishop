@@ -8,5 +8,8 @@
     <color name="teal_700">#FF018786</color>
     <color name="white">#FFFFFFFF</color>
     <string name="app_name">ENIShop</string>
+    <string name="key_add_fab">
+        Ajouter
+    </string>
     <style name="Theme.ENIShop" parent="android:Theme.Material.Light.NoActionBar"/>
 </resources>

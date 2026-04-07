@@ -21,8 +21,9 @@ import com.example.enishop.repository.ArticleRepository
 import com.example.enishop.ui.theme.Typography
 
 @Composable
-fun DetailArticlePage(modifier: Modifier = Modifier) {
-    val article = ArticleRepository.getArticle(1)
+fun DetailArticlePage(modifier: Modifier = Modifier,
+                      idArticle : Long = 1) {
+    val article = ArticleRepository.getArticle(idArticle)
     Scaffold {innerPadding->
         Column(Modifier.padding(innerPadding)) {
             //Faire le contenu
