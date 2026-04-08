@@ -13,9 +13,11 @@ import androidx.compose.material3.Scaffold
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.unit.dp
 import coil3.compose.AsyncImage
 import coil3.compose.AsyncImagePainter.State.Empty.painter
+import coil3.compose.LocalPlatformContext
 import coil3.compose.rememberAsyncImagePainter
 import com.example.enishop.repository.ArticleRepository
 import com.example.enishop.ui.theme.Typography
@@ -23,7 +25,8 @@ import com.example.enishop.ui.theme.Typography
 @Composable
 fun DetailArticlePage(modifier: Modifier = Modifier,
                       idArticle : Long = 1) {
-    val article = ArticleRepository.getArticle(idArticle)
+    val context = LocalContext.current
+    val article = ArticleRepository(context).getArticle(idArticle)
     Scaffold {innerPadding->
         Column(Modifier.padding(innerPadding)) {
             //Faire le contenu

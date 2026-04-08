@@ -2,12 +2,17 @@ package com.example.enishop.ui.vm
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.ViewModelProvider
+import androidx.lifecycle.viewModelScope
+import androidx.lifecycle.viewmodel.CreationExtras
 import com.example.enishop.bo.Article
+import com.example.enishop.dao.db.AppDatabase
 import com.example.enishop.repository.ArticleRepository
 import com.example.enishop.ui.Filter
+import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.asStateFlow
 import kotlinx.coroutines.flow.firstOrNull
+import kotlinx.coroutines.launch
 
 class ListArticleVM(val repo : ArticleRepository) : ViewModel() {
     private val _listArticlesStateFlow = MutableStateFlow<List<Article>>(listOf());
@@ -18,7 +23,9 @@ class ListArticleVM(val repo : ArticleRepository) : ViewModel() {
     private val _listFiltersStateFlow = MutableStateFlow(listFilters);
     val listFiltersStateFlow = _listFiltersStateFlow.asStateFlow()
     init{
-        _listArticlesStateFlow.value = repo.getArticles()
+        viewModelScope.launch(Dispatchers.IO) {
+            _listArticlesStateFlow.value = repo.getArticles()
+        }
     }
 
     fun filter(category: String){
@@ -30,24 +37,29 @@ class ListArticleVM(val repo : ArticleRepository) : ViewModel() {
                 it
             }
         }
-        //Est-ce qu'il y a un filtre a true, s'il y en a pas, je récupère tous les articles
-        if(_listFiltersStateFlow.value.firstOrNull{ it.selected } == null){
-            _listArticlesStateFlow.value = repo.getArticles()
-        }else{
-            //Filtrage de mes articles
-            _listArticlesStateFlow.value = repo.getArticles().filter { article->
-                //Vérifier que la catégorie soit présente dans _listFiltersStateFlow ET qu'elle soit "true"
-                _listFiltersStateFlow.value.find{ filter -> filter.label == article.category && filter.selected } != null
+        viewModelScope.launch(Dispatchers.IO) {
+            //Est-ce qu'il y a un filtre a true, s'il y en a pas, je récupère tous les articles
+            if(_listFiltersStateFlow.value.firstOrNull{ it.selected } == null){
+                _listArticlesStateFlow.value = repo.getArticles()
+            }else{
+                //Filtrage de mes articles
+                _listArticlesStateFlow.value = repo.getArticles().filter { article->
+                    //Vérifier que la catégorie soit présente dans _listFiltersStateFlow ET qu'elle soit "true"
+                    _listFiltersStateFlow.value.find{ filter -> filter.label == article.category && filter.selected } != null
+                }
             }
         }
+
     }
 
     companion object{
         val Factory = object : ViewModelProvider.Factory {
-            override fun <T : ViewModel> create(modelClass: Class<T>): T {
-                return ListArticleVM(
-                    ArticleRepository
-                ) as T
+            override fun <T : ViewModel> create(
+                modelClass: Class<T>,
+                extras: CreationExtras
+            ): T {
+                val application = checkNotNull(extras[ViewModelProvider.AndroidViewModelFactory.APPLICATION_KEY])
+                return ListArticleVM(ArticleRepository(application.applicationContext)) as T
             }
         }
     }

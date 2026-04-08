@@ -50,6 +50,7 @@ import kotlinx.coroutines.launch
 @Composable
 fun AddArticlePage(modifier: Modifier = Modifier) {
     val scope = rememberCoroutineScope()
+    val context = LocalContext.current
     val snackbarHostState = remember { SnackbarHostState() }
     Scaffold( snackbarHost = {
         SnackbarHost(hostState = snackbarHostState)
@@ -132,7 +133,7 @@ fun AddArticlePage(modifier: Modifier = Modifier) {
             }
             Spacer(Modifier.weight(1f))
             Button({
-                ArticleRepository.addArticle(
+                ArticleRepository(context).addArticle(
                     Article(
                         id = 0,
                         name = titre,
