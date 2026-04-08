@@ -8,13 +8,16 @@ import com.example.enishop.bo.Article
 import com.example.enishop.dao.db.AppDatabase
 import com.example.enishop.repository.ArticleRepository
 import com.example.enishop.ui.Filter
+import dagger.hilt.android.lifecycle.HiltViewModel
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.asStateFlow
 import kotlinx.coroutines.flow.firstOrNull
 import kotlinx.coroutines.launch
+import javax.inject.Inject
 
-class ListArticleVM(val repo : ArticleRepository) : ViewModel() {
+@HiltViewModel
+class ListArticleVM @Inject constructor(val repo : ArticleRepository) : ViewModel() {
     private val _listArticlesStateFlow = MutableStateFlow<List<Article>>(listOf());
     val listArticlesStateFlow = _listArticlesStateFlow.asStateFlow()
     private val _listCategory = listOf("Clothes","Electronics","Furniture","Shoes","Miscellaneous")
@@ -51,18 +54,4 @@ class ListArticleVM(val repo : ArticleRepository) : ViewModel() {
         }
 
     }
-
-    companion object{
-        val Factory = object : ViewModelProvider.Factory {
-            override fun <T : ViewModel> create(
-                modelClass: Class<T>,
-                extras: CreationExtras
-            ): T {
-                val application = checkNotNull(extras[ViewModelProvider.AndroidViewModelFactory.APPLICATION_KEY])
-                return ListArticleVM(ArticleRepository(application.applicationContext)) as T
-            }
-        }
-    }
-
-
 }

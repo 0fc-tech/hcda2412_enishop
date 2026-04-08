@@ -47,7 +47,7 @@ import com.example.enishop.ui.vm.ListArticleVM
 fun ListArticlesPage(modifier: Modifier = Modifier,
                      onClickAdd : ()-> Unit,
                      onClickDetail : (id: Long)-> Unit,
-                     vm : ListArticleVM= viewModel(factory = ListArticleVM.Factory)) {
+                     vm : ListArticleVM) {
     val listArticleState by vm.listArticlesStateFlow.collectAsState()
     val listFilters by vm.listFiltersStateFlow.collectAsState()
     Scaffold(floatingActionButton = {

@@ -2,14 +2,16 @@ package com.example.enishop.repository
 
 import android.content.Context
 import com.example.enishop.bo.Article
-import com.example.enishop.dao.DaoFactory
+import com.example.enishop.dao.ArticleDao
 import com.example.enishop.dao.DaoType
 import com.example.enishop.dao.db.AppDatabase
+import com.example.enishop.dao.memory.ArticleDaoMemoryImpl
+import javax.inject.Inject
 
-class ArticleRepository(contextApp : Context) {
-    val articleDaoMemory = DaoFactory.createArticleDao(DaoType.MEMORY,contextApp)
-    val articleDaoDB = DaoFactory.createArticleDao(DaoType.DB,contextApp)
-
+class ArticleRepository @Inject constructor(
+    val articleDaoMemory: ArticleDaoMemoryImpl,
+    val articleDaoDB : ArticleDao
+    ) {
 
     fun getArticle(id:Long): Article{
         return articleDaoMemory.findById(id)

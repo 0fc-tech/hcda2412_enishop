@@ -16,164 +16,166 @@
 11-->C:\Users\qrouet\AndroidStudioProjects\ENIShop\app\src\main\AndroidManifest.xml:4:22-64
 12
 13    <permission
-13-->[androidx.core:core:1.18.0] C:\Users\qrouet\.gradle\caches\9.3.1\transforms\2c91a1bd14cecef6f4a2f2b2ed9d22c1\workspace\transformed\core-1.18.0\AndroidManifest.xml:22:5-24:47
+13-->[androidx.core:core:1.18.0] C:\Users\qrouet\.gradle\caches\9.3.1\transforms\341d601c5af62d9b1b7a9297ef51f799\workspace\transformed\core-1.18.0\AndroidManifest.xml:22:5-24:47
 14        android:name="com.example.enishop.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
-14-->[androidx.core:core:1.18.0] C:\Users\qrouet\.gradle\caches\9.3.1\transforms\2c91a1bd14cecef6f4a2f2b2ed9d22c1\workspace\transformed\core-1.18.0\AndroidManifest.xml:23:9-81
+14-->[androidx.core:core:1.18.0] C:\Users\qrouet\.gradle\caches\9.3.1\transforms\341d601c5af62d9b1b7a9297ef51f799\workspace\transformed\core-1.18.0\AndroidManifest.xml:23:9-81
 15        android:protectionLevel="signature" />
-15-->[androidx.core:core:1.18.0] C:\Users\qrouet\.gradle\caches\9.3.1\transforms\2c91a1bd14cecef6f4a2f2b2ed9d22c1\workspace\transformed\core-1.18.0\AndroidManifest.xml:24:9-44
+15-->[androidx.core:core:1.18.0] C:\Users\qrouet\.gradle\caches\9.3.1\transforms\341d601c5af62d9b1b7a9297ef51f799\workspace\transformed\core-1.18.0\AndroidManifest.xml:24:9-44
 16
 17    <uses-permission android:name="com.example.enishop.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
-17-->[androidx.core:core:1.18.0] C:\Users\qrouet\.gradle\caches\9.3.1\transforms\2c91a1bd14cecef6f4a2f2b2ed9d22c1\workspace\transformed\core-1.18.0\AndroidManifest.xml:26:5-97
-17-->[androidx.core:core:1.18.0] C:\Users\qrouet\.gradle\caches\9.3.1\transforms\2c91a1bd14cecef6f4a2f2b2ed9d22c1\workspace\transformed\core-1.18.0\AndroidManifest.xml:26:22-94
+17-->[androidx.core:core:1.18.0] C:\Users\qrouet\.gradle\caches\9.3.1\transforms\341d601c5af62d9b1b7a9297ef51f799\workspace\transformed\core-1.18.0\AndroidManifest.xml:26:5-97
+17-->[androidx.core:core:1.18.0] C:\Users\qrouet\.gradle\caches\9.3.1\transforms\341d601c5af62d9b1b7a9297ef51f799\workspace\transformed\core-1.18.0\AndroidManifest.xml:26:22-94
 18
 19    <application
-19-->C:\Users\qrouet\AndroidStudioProjects\ENIShop\app\src\main\AndroidManifest.xml:5:5-30:19
-20        android:allowBackup="true"
-20-->C:\Users\qrouet\AndroidStudioProjects\ENIShop\app\src\main\AndroidManifest.xml:6:9-35
-21        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-21-->[androidx.core:core:1.18.0] C:\Users\qrouet\.gradle\caches\9.3.1\transforms\2c91a1bd14cecef6f4a2f2b2ed9d22c1\workspace\transformed\core-1.18.0\AndroidManifest.xml:28:18-86
-22        android:dataExtractionRules="@xml/data_extraction_rules"
-22-->C:\Users\qrouet\AndroidStudioProjects\ENIShop\app\src\main\AndroidManifest.xml:7:9-65
-23        android:debuggable="true"
-24        android:extractNativeLibs="false"
-24-->INJECTED
-25        android:fullBackupContent="@xml/backup_rules"
-25-->C:\Users\qrouet\AndroidStudioProjects\ENIShop\app\src\main\AndroidManifest.xml:8:9-54
-26        android:icon="@mipmap/ic_launcher"
-26-->C:\Users\qrouet\AndroidStudioProjects\ENIShop\app\src\main\AndroidManifest.xml:9:9-43
-27        android:label="@string/app_name"
-27-->C:\Users\qrouet\AndroidStudioProjects\ENIShop\app\src\main\AndroidManifest.xml:10:9-41
-28        android:roundIcon="@mipmap/ic_launcher_round"
-28-->C:\Users\qrouet\AndroidStudioProjects\ENIShop\app\src\main\AndroidManifest.xml:11:9-54
-29        android:supportsRtl="true"
-29-->C:\Users\qrouet\AndroidStudioProjects\ENIShop\app\src\main\AndroidManifest.xml:12:9-35
-30        android:testOnly="true"
-31        android:theme="@style/Theme.ENIShop" >
-31-->C:\Users\qrouet\AndroidStudioProjects\ENIShop\app\src\main\AndroidManifest.xml:13:9-45
-32        <activity
-32-->C:\Users\qrouet\AndroidStudioProjects\ENIShop\app\src\main\AndroidManifest.xml:14:9-29:20
-33            android:name="com.example.enishop.MainActivity"
-33-->C:\Users\qrouet\AndroidStudioProjects\ENIShop\app\src\main\AndroidManifest.xml:15:13-41
-34            android:exported="true"
-34-->C:\Users\qrouet\AndroidStudioProjects\ENIShop\app\src\main\AndroidManifest.xml:16:13-36
-35            android:label="@string/app_name"
-35-->C:\Users\qrouet\AndroidStudioProjects\ENIShop\app\src\main\AndroidManifest.xml:17:13-45
-36            android:theme="@style/Theme.ENIShop" >
-36-->C:\Users\qrouet\AndroidStudioProjects\ENIShop\app\src\main\AndroidManifest.xml:18:13-49
-37            <intent-filter>
-37-->C:\Users\qrouet\AndroidStudioProjects\ENIShop\app\src\main\AndroidManifest.xml:19:13-23:29
-38                <action android:name="android.intent.action.MAIN" />
-38-->C:\Users\qrouet\AndroidStudioProjects\ENIShop\app\src\main\AndroidManifest.xml:20:17-69
-38-->C:\Users\qrouet\AndroidStudioProjects\ENIShop\app\src\main\AndroidManifest.xml:20:25-66
-39
-40                <category android:name="android.intent.category.LAUNCHER" />
-40-->C:\Users\qrouet\AndroidStudioProjects\ENIShop\app\src\main\AndroidManifest.xml:22:17-77
-40-->C:\Users\qrouet\AndroidStudioProjects\ENIShop\app\src\main\AndroidManifest.xml:22:27-74
-41            </intent-filter>
-42            <intent-filter>
-42-->C:\Users\qrouet\AndroidStudioProjects\ENIShop\app\src\main\AndroidManifest.xml:24:13-28:29
-43                <action android:name="android.intent.action.VIEW" />
-43-->C:\Users\qrouet\AndroidStudioProjects\ENIShop\app\src\main\AndroidManifest.xml:25:17-68
-43-->C:\Users\qrouet\AndroidStudioProjects\ENIShop\app\src\main\AndroidManifest.xml:25:25-66
-44
-45                <data android:mimeType="application/pdf" />
-45-->C:\Users\qrouet\AndroidStudioProjects\ENIShop\app\src\main\AndroidManifest.xml:26:17-59
-45-->C:\Users\qrouet\AndroidStudioProjects\ENIShop\app\src\main\AndroidManifest.xml:26:23-57
-46
-47                <category android:name="android.intent.category.DEFAULT" />
-47-->C:\Users\qrouet\AndroidStudioProjects\ENIShop\app\src\main\AndroidManifest.xml:27:17-75
-47-->C:\Users\qrouet\AndroidStudioProjects\ENIShop\app\src\main\AndroidManifest.xml:27:27-73
-48            </intent-filter>
-49        </activity>
-50        <activity
-50-->[androidx.compose.ui:ui-test-manifest:1.9.4] C:\Users\qrouet\.gradle\caches\9.3.1\transforms\38729cc86e590e06c4be05ab1958abb2\workspace\transformed\ui-test-manifest-1.9.4\AndroidManifest.xml:23:9-26:79
-51            android:name="androidx.activity.ComponentActivity"
-51-->[androidx.compose.ui:ui-test-manifest:1.9.4] C:\Users\qrouet\.gradle\caches\9.3.1\transforms\38729cc86e590e06c4be05ab1958abb2\workspace\transformed\ui-test-manifest-1.9.4\AndroidManifest.xml:24:13-63
-52            android:exported="true"
-52-->[androidx.compose.ui:ui-test-manifest:1.9.4] C:\Users\qrouet\.gradle\caches\9.3.1\transforms\38729cc86e590e06c4be05ab1958abb2\workspace\transformed\ui-test-manifest-1.9.4\AndroidManifest.xml:25:13-36
-53            android:theme="@android:style/Theme.Material.Light.NoActionBar" />
-53-->[androidx.compose.ui:ui-test-manifest:1.9.4] C:\Users\qrouet\.gradle\caches\9.3.1\transforms\38729cc86e590e06c4be05ab1958abb2\workspace\transformed\ui-test-manifest-1.9.4\AndroidManifest.xml:26:13-76
-54        <activity
-54-->[androidx.compose.ui:ui-tooling-android:1.9.4] C:\Users\qrouet\.gradle\caches\9.3.1\transforms\fb0fad7ab53ab08a1528090db6b1ea1c\workspace\transformed\ui-tooling\AndroidManifest.xml:23:9-25:39
-55            android:name="androidx.compose.ui.tooling.PreviewActivity"
-55-->[androidx.compose.ui:ui-tooling-android:1.9.4] C:\Users\qrouet\.gradle\caches\9.3.1\transforms\fb0fad7ab53ab08a1528090db6b1ea1c\workspace\transformed\ui-tooling\AndroidManifest.xml:24:13-71
-56            android:exported="true" />
-56-->[androidx.compose.ui:ui-tooling-android:1.9.4] C:\Users\qrouet\.gradle\caches\9.3.1\transforms\fb0fad7ab53ab08a1528090db6b1ea1c\workspace\transformed\ui-tooling\AndroidManifest.xml:25:13-36
-57
-58        <provider
-58-->[androidx.emoji2:emoji2:1.4.0] C:\Users\qrouet\.gradle\caches\9.3.1\transforms\0dc869755519e4bde62272a4f760fdbf\workspace\transformed\emoji2-1.4.0\AndroidManifest.xml:24:9-32:20
-59            android:name="androidx.startup.InitializationProvider"
-59-->[androidx.emoji2:emoji2:1.4.0] C:\Users\qrouet\.gradle\caches\9.3.1\transforms\0dc869755519e4bde62272a4f760fdbf\workspace\transformed\emoji2-1.4.0\AndroidManifest.xml:25:13-67
-60            android:authorities="com.example.enishop.androidx-startup"
-60-->[androidx.emoji2:emoji2:1.4.0] C:\Users\qrouet\.gradle\caches\9.3.1\transforms\0dc869755519e4bde62272a4f760fdbf\workspace\transformed\emoji2-1.4.0\AndroidManifest.xml:26:13-68
-61            android:exported="false" >
-61-->[androidx.emoji2:emoji2:1.4.0] C:\Users\qrouet\.gradle\caches\9.3.1\transforms\0dc869755519e4bde62272a4f760fdbf\workspace\transformed\emoji2-1.4.0\AndroidManifest.xml:27:13-37
-62            <meta-data
-62-->[androidx.emoji2:emoji2:1.4.0] C:\Users\qrouet\.gradle\caches\9.3.1\transforms\0dc869755519e4bde62272a4f760fdbf\workspace\transformed\emoji2-1.4.0\AndroidManifest.xml:29:13-31:52
-63                android:name="androidx.emoji2.text.EmojiCompatInitializer"
-63-->[androidx.emoji2:emoji2:1.4.0] C:\Users\qrouet\.gradle\caches\9.3.1\transforms\0dc869755519e4bde62272a4f760fdbf\workspace\transformed\emoji2-1.4.0\AndroidManifest.xml:30:17-75
-64                android:value="androidx.startup" />
-64-->[androidx.emoji2:emoji2:1.4.0] C:\Users\qrouet\.gradle\caches\9.3.1\transforms\0dc869755519e4bde62272a4f760fdbf\workspace\transformed\emoji2-1.4.0\AndroidManifest.xml:31:17-49
-65            <meta-data
-65-->[androidx.lifecycle:lifecycle-process:2.10.0] C:\Users\qrouet\.gradle\caches\9.3.1\transforms\ce9ada81d92559b9c6cf43b282d035fa\workspace\transformed\lifecycle-process-2.10.0\AndroidManifest.xml:29:13-31:52
-66                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
-66-->[androidx.lifecycle:lifecycle-process:2.10.0] C:\Users\qrouet\.gradle\caches\9.3.1\transforms\ce9ada81d92559b9c6cf43b282d035fa\workspace\transformed\lifecycle-process-2.10.0\AndroidManifest.xml:30:17-78
-67                android:value="androidx.startup" />
-67-->[androidx.lifecycle:lifecycle-process:2.10.0] C:\Users\qrouet\.gradle\caches\9.3.1\transforms\ce9ada81d92559b9c6cf43b282d035fa\workspace\transformed\lifecycle-process-2.10.0\AndroidManifest.xml:31:17-49
-68            <meta-data
-68-->[androidx.profileinstaller:profileinstaller:1.4.1] C:\Users\qrouet\.gradle\caches\9.3.1\transforms\054717526976936085842074fe834dd7\workspace\transformed\profileinstaller-1.4.1\AndroidManifest.xml:29:13-31:52
-69                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
-69-->[androidx.profileinstaller:profileinstaller:1.4.1] C:\Users\qrouet\.gradle\caches\9.3.1\transforms\054717526976936085842074fe834dd7\workspace\transformed\profileinstaller-1.4.1\AndroidManifest.xml:30:17-85
-70                android:value="androidx.startup" />
-70-->[androidx.profileinstaller:profileinstaller:1.4.1] C:\Users\qrouet\.gradle\caches\9.3.1\transforms\054717526976936085842074fe834dd7\workspace\transformed\profileinstaller-1.4.1\AndroidManifest.xml:31:17-49
-71        </provider>
-72
-73        <service
-73-->[androidx.room:room-runtime-android:2.8.4] C:\Users\qrouet\.gradle\caches\9.3.1\transforms\7015fe453fd2d2e4c2297cb63ca38920\workspace\transformed\room-runtime\AndroidManifest.xml:24:9-28:63
-74            android:name="androidx.room.MultiInstanceInvalidationService"
-74-->[androidx.room:room-runtime-android:2.8.4] C:\Users\qrouet\.gradle\caches\9.3.1\transforms\7015fe453fd2d2e4c2297cb63ca38920\workspace\transformed\room-runtime\AndroidManifest.xml:25:13-74
-75            android:directBootAware="true"
-75-->[androidx.room:room-runtime-android:2.8.4] C:\Users\qrouet\.gradle\caches\9.3.1\transforms\7015fe453fd2d2e4c2297cb63ca38920\workspace\transformed\room-runtime\AndroidManifest.xml:26:13-43
-76            android:exported="false" />
-76-->[androidx.room:room-runtime-android:2.8.4] C:\Users\qrouet\.gradle\caches\9.3.1\transforms\7015fe453fd2d2e4c2297cb63ca38920\workspace\transformed\room-runtime\AndroidManifest.xml:27:13-37
-77
-78        <receiver
-78-->[androidx.profileinstaller:profileinstaller:1.4.1] C:\Users\qrouet\.gradle\caches\9.3.1\transforms\054717526976936085842074fe834dd7\workspace\transformed\profileinstaller-1.4.1\AndroidManifest.xml:34:9-52:20
-79            android:name="androidx.profileinstaller.ProfileInstallReceiver"
-79-->[androidx.profileinstaller:profileinstaller:1.4.1] C:\Users\qrouet\.gradle\caches\9.3.1\transforms\054717526976936085842074fe834dd7\workspace\transformed\profileinstaller-1.4.1\AndroidManifest.xml:35:13-76
-80            android:directBootAware="false"
-80-->[androidx.profileinstaller:profileinstaller:1.4.1] C:\Users\qrouet\.gradle\caches\9.3.1\transforms\054717526976936085842074fe834dd7\workspace\transformed\profileinstaller-1.4.1\AndroidManifest.xml:36:13-44
-81            android:enabled="true"
-81-->[androidx.profileinstaller:profileinstaller:1.4.1] C:\Users\qrouet\.gradle\caches\9.3.1\transforms\054717526976936085842074fe834dd7\workspace\transformed\profileinstaller-1.4.1\AndroidManifest.xml:37:13-35
-82            android:exported="true"
-82-->[androidx.profileinstaller:profileinstaller:1.4.1] C:\Users\qrouet\.gradle\caches\9.3.1\transforms\054717526976936085842074fe834dd7\workspace\transformed\profileinstaller-1.4.1\AndroidManifest.xml:38:13-36
-83            android:permission="android.permission.DUMP" >
-83-->[androidx.profileinstaller:profileinstaller:1.4.1] C:\Users\qrouet\.gradle\caches\9.3.1\transforms\054717526976936085842074fe834dd7\workspace\transformed\profileinstaller-1.4.1\AndroidManifest.xml:39:13-57
-84            <intent-filter>
-84-->[androidx.profileinstaller:profileinstaller:1.4.1] C:\Users\qrouet\.gradle\caches\9.3.1\transforms\054717526976936085842074fe834dd7\workspace\transformed\profileinstaller-1.4.1\AndroidManifest.xml:40:13-42:29
-85                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
-85-->[androidx.profileinstaller:profileinstaller:1.4.1] C:\Users\qrouet\.gradle\caches\9.3.1\transforms\054717526976936085842074fe834dd7\workspace\transformed\profileinstaller-1.4.1\AndroidManifest.xml:41:17-91
-85-->[androidx.profileinstaller:profileinstaller:1.4.1] C:\Users\qrouet\.gradle\caches\9.3.1\transforms\054717526976936085842074fe834dd7\workspace\transformed\profileinstaller-1.4.1\AndroidManifest.xml:41:25-88
-86            </intent-filter>
-87            <intent-filter>
-87-->[androidx.profileinstaller:profileinstaller:1.4.1] C:\Users\qrouet\.gradle\caches\9.3.1\transforms\054717526976936085842074fe834dd7\workspace\transformed\profileinstaller-1.4.1\AndroidManifest.xml:43:13-45:29
-88                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
-88-->[androidx.profileinstaller:profileinstaller:1.4.1] C:\Users\qrouet\.gradle\caches\9.3.1\transforms\054717526976936085842074fe834dd7\workspace\transformed\profileinstaller-1.4.1\AndroidManifest.xml:44:17-85
-88-->[androidx.profileinstaller:profileinstaller:1.4.1] C:\Users\qrouet\.gradle\caches\9.3.1\transforms\054717526976936085842074fe834dd7\workspace\transformed\profileinstaller-1.4.1\AndroidManifest.xml:44:25-82
-89            </intent-filter>
-90            <intent-filter>
-90-->[androidx.profileinstaller:profileinstaller:1.4.1] C:\Users\qrouet\.gradle\caches\9.3.1\transforms\054717526976936085842074fe834dd7\workspace\transformed\profileinstaller-1.4.1\AndroidManifest.xml:46:13-48:29
-91                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
-91-->[androidx.profileinstaller:profileinstaller:1.4.1] C:\Users\qrouet\.gradle\caches\9.3.1\transforms\054717526976936085842074fe834dd7\workspace\transformed\profileinstaller-1.4.1\AndroidManifest.xml:47:17-88
-91-->[androidx.profileinstaller:profileinstaller:1.4.1] C:\Users\qrouet\.gradle\caches\9.3.1\transforms\054717526976936085842074fe834dd7\workspace\transformed\profileinstaller-1.4.1\AndroidManifest.xml:47:25-85
-92            </intent-filter>
-93            <intent-filter>
-93-->[androidx.profileinstaller:profileinstaller:1.4.1] C:\Users\qrouet\.gradle\caches\9.3.1\transforms\054717526976936085842074fe834dd7\workspace\transformed\profileinstaller-1.4.1\AndroidManifest.xml:49:13-51:29
-94                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
-94-->[androidx.profileinstaller:profileinstaller:1.4.1] C:\Users\qrouet\.gradle\caches\9.3.1\transforms\054717526976936085842074fe834dd7\workspace\transformed\profileinstaller-1.4.1\AndroidManifest.xml:50:17-95
-94-->[androidx.profileinstaller:profileinstaller:1.4.1] C:\Users\qrouet\.gradle\caches\9.3.1\transforms\054717526976936085842074fe834dd7\workspace\transformed\profileinstaller-1.4.1\AndroidManifest.xml:50:25-92
-95            </intent-filter>
-96        </receiver>
-97    </application>
-98
-99</manifest>
+19-->C:\Users\qrouet\AndroidStudioProjects\ENIShop\app\src\main\AndroidManifest.xml:5:5-31:19
+20        android:name="com.example.enishop.EniShopApp"
+20-->C:\Users\qrouet\AndroidStudioProjects\ENIShop\app\src\main\AndroidManifest.xml:10:9-35
+21        android:allowBackup="true"
+21-->C:\Users\qrouet\AndroidStudioProjects\ENIShop\app\src\main\AndroidManifest.xml:6:9-35
+22        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+22-->[androidx.core:core:1.18.0] C:\Users\qrouet\.gradle\caches\9.3.1\transforms\341d601c5af62d9b1b7a9297ef51f799\workspace\transformed\core-1.18.0\AndroidManifest.xml:28:18-86
+23        android:dataExtractionRules="@xml/data_extraction_rules"
+23-->C:\Users\qrouet\AndroidStudioProjects\ENIShop\app\src\main\AndroidManifest.xml:7:9-65
+24        android:debuggable="true"
+25        android:extractNativeLibs="false"
+25-->INJECTED
+26        android:fullBackupContent="@xml/backup_rules"
+26-->C:\Users\qrouet\AndroidStudioProjects\ENIShop\app\src\main\AndroidManifest.xml:8:9-54
+27        android:icon="@mipmap/ic_launcher"
+27-->C:\Users\qrouet\AndroidStudioProjects\ENIShop\app\src\main\AndroidManifest.xml:9:9-43
+28        android:label="@string/app_name"
+28-->C:\Users\qrouet\AndroidStudioProjects\ENIShop\app\src\main\AndroidManifest.xml:11:9-41
+29        android:roundIcon="@mipmap/ic_launcher_round"
+29-->C:\Users\qrouet\AndroidStudioProjects\ENIShop\app\src\main\AndroidManifest.xml:12:9-54
+30        android:supportsRtl="true"
+30-->C:\Users\qrouet\AndroidStudioProjects\ENIShop\app\src\main\AndroidManifest.xml:13:9-35
+31        android:testOnly="true"
+32        android:theme="@style/Theme.ENIShop" >
+32-->C:\Users\qrouet\AndroidStudioProjects\ENIShop\app\src\main\AndroidManifest.xml:14:9-45
+33        <activity
+33-->C:\Users\qrouet\AndroidStudioProjects\ENIShop\app\src\main\AndroidManifest.xml:15:9-30:20
+34            android:name="com.example.enishop.MainActivity"
+34-->C:\Users\qrouet\AndroidStudioProjects\ENIShop\app\src\main\AndroidManifest.xml:16:13-41
+35            android:exported="true"
+35-->C:\Users\qrouet\AndroidStudioProjects\ENIShop\app\src\main\AndroidManifest.xml:17:13-36
+36            android:label="@string/app_name"
+36-->C:\Users\qrouet\AndroidStudioProjects\ENIShop\app\src\main\AndroidManifest.xml:18:13-45
+37            android:theme="@style/Theme.ENIShop" >
+37-->C:\Users\qrouet\AndroidStudioProjects\ENIShop\app\src\main\AndroidManifest.xml:19:13-49
+38            <intent-filter>
+38-->C:\Users\qrouet\AndroidStudioProjects\ENIShop\app\src\main\AndroidManifest.xml:20:13-24:29
+39                <action android:name="android.intent.action.MAIN" />
+39-->C:\Users\qrouet\AndroidStudioProjects\ENIShop\app\src\main\AndroidManifest.xml:21:17-69
+39-->C:\Users\qrouet\AndroidStudioProjects\ENIShop\app\src\main\AndroidManifest.xml:21:25-66
+40
+41                <category android:name="android.intent.category.LAUNCHER" />
+41-->C:\Users\qrouet\AndroidStudioProjects\ENIShop\app\src\main\AndroidManifest.xml:23:17-77
+41-->C:\Users\qrouet\AndroidStudioProjects\ENIShop\app\src\main\AndroidManifest.xml:23:27-74
+42            </intent-filter>
+43            <intent-filter>
+43-->C:\Users\qrouet\AndroidStudioProjects\ENIShop\app\src\main\AndroidManifest.xml:25:13-29:29
+44                <action android:name="android.intent.action.VIEW" />
+44-->C:\Users\qrouet\AndroidStudioProjects\ENIShop\app\src\main\AndroidManifest.xml:26:17-68
+44-->C:\Users\qrouet\AndroidStudioProjects\ENIShop\app\src\main\AndroidManifest.xml:26:25-66
+45
+46                <data android:mimeType="application/pdf" />
+46-->C:\Users\qrouet\AndroidStudioProjects\ENIShop\app\src\main\AndroidManifest.xml:27:17-59
+46-->C:\Users\qrouet\AndroidStudioProjects\ENIShop\app\src\main\AndroidManifest.xml:27:23-57
+47
+48                <category android:name="android.intent.category.DEFAULT" />
+48-->C:\Users\qrouet\AndroidStudioProjects\ENIShop\app\src\main\AndroidManifest.xml:28:17-75
+48-->C:\Users\qrouet\AndroidStudioProjects\ENIShop\app\src\main\AndroidManifest.xml:28:27-73
+49            </intent-filter>
+50        </activity>
+51        <activity
+51-->[androidx.compose.ui:ui-test-manifest:1.9.4] C:\Users\qrouet\.gradle\caches\9.3.1\transforms\92e7eb8dc41f80f4b8f4d8b6fcee7758\workspace\transformed\ui-test-manifest-1.9.4\AndroidManifest.xml:23:9-26:79
+52            android:name="androidx.activity.ComponentActivity"
+52-->[androidx.compose.ui:ui-test-manifest:1.9.4] C:\Users\qrouet\.gradle\caches\9.3.1\transforms\92e7eb8dc41f80f4b8f4d8b6fcee7758\workspace\transformed\ui-test-manifest-1.9.4\AndroidManifest.xml:24:13-63
+53            android:exported="true"
+53-->[androidx.compose.ui:ui-test-manifest:1.9.4] C:\Users\qrouet\.gradle\caches\9.3.1\transforms\92e7eb8dc41f80f4b8f4d8b6fcee7758\workspace\transformed\ui-test-manifest-1.9.4\AndroidManifest.xml:25:13-36
+54            android:theme="@android:style/Theme.Material.Light.NoActionBar" />
+54-->[androidx.compose.ui:ui-test-manifest:1.9.4] C:\Users\qrouet\.gradle\caches\9.3.1\transforms\92e7eb8dc41f80f4b8f4d8b6fcee7758\workspace\transformed\ui-test-manifest-1.9.4\AndroidManifest.xml:26:13-76
+55        <activity
+55-->[androidx.compose.ui:ui-tooling-android:1.9.4] C:\Users\qrouet\.gradle\caches\9.3.1\transforms\420675c3d3757ef9ffb39f2421b68ccf\workspace\transformed\ui-tooling\AndroidManifest.xml:23:9-25:39
+56            android:name="androidx.compose.ui.tooling.PreviewActivity"
+56-->[androidx.compose.ui:ui-tooling-android:1.9.4] C:\Users\qrouet\.gradle\caches\9.3.1\transforms\420675c3d3757ef9ffb39f2421b68ccf\workspace\transformed\ui-tooling\AndroidManifest.xml:24:13-71
+57            android:exported="true" />
+57-->[androidx.compose.ui:ui-tooling-android:1.9.4] C:\Users\qrouet\.gradle\caches\9.3.1\transforms\420675c3d3757ef9ffb39f2421b68ccf\workspace\transformed\ui-tooling\AndroidManifest.xml:25:13-36
+58
+59        <provider
+59-->[androidx.emoji2:emoji2:1.4.0] C:\Users\qrouet\.gradle\caches\9.3.1\transforms\cab167ba18fc2eb699d1c03de631e990\workspace\transformed\emoji2-1.4.0\AndroidManifest.xml:24:9-32:20
+60            android:name="androidx.startup.InitializationProvider"
+60-->[androidx.emoji2:emoji2:1.4.0] C:\Users\qrouet\.gradle\caches\9.3.1\transforms\cab167ba18fc2eb699d1c03de631e990\workspace\transformed\emoji2-1.4.0\AndroidManifest.xml:25:13-67
+61            android:authorities="com.example.enishop.androidx-startup"
+61-->[androidx.emoji2:emoji2:1.4.0] C:\Users\qrouet\.gradle\caches\9.3.1\transforms\cab167ba18fc2eb699d1c03de631e990\workspace\transformed\emoji2-1.4.0\AndroidManifest.xml:26:13-68
+62            android:exported="false" >
+62-->[androidx.emoji2:emoji2:1.4.0] C:\Users\qrouet\.gradle\caches\9.3.1\transforms\cab167ba18fc2eb699d1c03de631e990\workspace\transformed\emoji2-1.4.0\AndroidManifest.xml:27:13-37
+63            <meta-data
+63-->[androidx.emoji2:emoji2:1.4.0] C:\Users\qrouet\.gradle\caches\9.3.1\transforms\cab167ba18fc2eb699d1c03de631e990\workspace\transformed\emoji2-1.4.0\AndroidManifest.xml:29:13-31:52
+64                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+64-->[androidx.emoji2:emoji2:1.4.0] C:\Users\qrouet\.gradle\caches\9.3.1\transforms\cab167ba18fc2eb699d1c03de631e990\workspace\transformed\emoji2-1.4.0\AndroidManifest.xml:30:17-75
+65                android:value="androidx.startup" />
+65-->[androidx.emoji2:emoji2:1.4.0] C:\Users\qrouet\.gradle\caches\9.3.1\transforms\cab167ba18fc2eb699d1c03de631e990\workspace\transformed\emoji2-1.4.0\AndroidManifest.xml:31:17-49
+66            <meta-data
+66-->[androidx.lifecycle:lifecycle-process:2.10.0] C:\Users\qrouet\.gradle\caches\9.3.1\transforms\5f62b6d24424e6ec8233bf5f201e1e88\workspace\transformed\lifecycle-process-2.10.0\AndroidManifest.xml:29:13-31:52
+67                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+67-->[androidx.lifecycle:lifecycle-process:2.10.0] C:\Users\qrouet\.gradle\caches\9.3.1\transforms\5f62b6d24424e6ec8233bf5f201e1e88\workspace\transformed\lifecycle-process-2.10.0\AndroidManifest.xml:30:17-78
+68                android:value="androidx.startup" />
+68-->[androidx.lifecycle:lifecycle-process:2.10.0] C:\Users\qrouet\.gradle\caches\9.3.1\transforms\5f62b6d24424e6ec8233bf5f201e1e88\workspace\transformed\lifecycle-process-2.10.0\AndroidManifest.xml:31:17-49
+69            <meta-data
+69-->[androidx.profileinstaller:profileinstaller:1.4.1] C:\Users\qrouet\.gradle\caches\9.3.1\transforms\d8b34b5053f491df6d1fc27e4383a2c0\workspace\transformed\profileinstaller-1.4.1\AndroidManifest.xml:29:13-31:52
+70                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+70-->[androidx.profileinstaller:profileinstaller:1.4.1] C:\Users\qrouet\.gradle\caches\9.3.1\transforms\d8b34b5053f491df6d1fc27e4383a2c0\workspace\transformed\profileinstaller-1.4.1\AndroidManifest.xml:30:17-85
+71                android:value="androidx.startup" />
+71-->[androidx.profileinstaller:profileinstaller:1.4.1] C:\Users\qrouet\.gradle\caches\9.3.1\transforms\d8b34b5053f491df6d1fc27e4383a2c0\workspace\transformed\profileinstaller-1.4.1\AndroidManifest.xml:31:17-49
+72        </provider>
+73
+74        <service
+74-->[androidx.room:room-runtime-android:2.8.4] C:\Users\qrouet\.gradle\caches\9.3.1\transforms\e2402e0d220e33af5dfbdd824b1f702d\workspace\transformed\room-runtime\AndroidManifest.xml:24:9-28:63
+75            android:name="androidx.room.MultiInstanceInvalidationService"
+75-->[androidx.room:room-runtime-android:2.8.4] C:\Users\qrouet\.gradle\caches\9.3.1\transforms\e2402e0d220e33af5dfbdd824b1f702d\workspace\transformed\room-runtime\AndroidManifest.xml:25:13-74
+76            android:directBootAware="true"
+76-->[androidx.room:room-runtime-android:2.8.4] C:\Users\qrouet\.gradle\caches\9.3.1\transforms\e2402e0d220e33af5dfbdd824b1f702d\workspace\transformed\room-runtime\AndroidManifest.xml:26:13-43
+77            android:exported="false" />
+77-->[androidx.room:room-runtime-android:2.8.4] C:\Users\qrouet\.gradle\caches\9.3.1\transforms\e2402e0d220e33af5dfbdd824b1f702d\workspace\transformed\room-runtime\AndroidManifest.xml:27:13-37
+78
+79        <receiver
+79-->[androidx.profileinstaller:profileinstaller:1.4.1] C:\Users\qrouet\.gradle\caches\9.3.1\transforms\d8b34b5053f491df6d1fc27e4383a2c0\workspace\transformed\profileinstaller-1.4.1\AndroidManifest.xml:34:9-52:20
+80            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+80-->[androidx.profileinstaller:profileinstaller:1.4.1] C:\Users\qrouet\.gradle\caches\9.3.1\transforms\d8b34b5053f491df6d1fc27e4383a2c0\workspace\transformed\profileinstaller-1.4.1\AndroidManifest.xml:35:13-76
+81            android:directBootAware="false"
+81-->[androidx.profileinstaller:profileinstaller:1.4.1] C:\Users\qrouet\.gradle\caches\9.3.1\transforms\d8b34b5053f491df6d1fc27e4383a2c0\workspace\transformed\profileinstaller-1.4.1\AndroidManifest.xml:36:13-44
+82            android:enabled="true"
+82-->[androidx.profileinstaller:profileinstaller:1.4.1] C:\Users\qrouet\.gradle\caches\9.3.1\transforms\d8b34b5053f491df6d1fc27e4383a2c0\workspace\transformed\profileinstaller-1.4.1\AndroidManifest.xml:37:13-35
+83            android:exported="true"
+83-->[androidx.profileinstaller:profileinstaller:1.4.1] C:\Users\qrouet\.gradle\caches\9.3.1\transforms\d8b34b5053f491df6d1fc27e4383a2c0\workspace\transformed\profileinstaller-1.4.1\AndroidManifest.xml:38:13-36
+84            android:permission="android.permission.DUMP" >
+84-->[androidx.profileinstaller:profileinstaller:1.4.1] C:\Users\qrouet\.gradle\caches\9.3.1\transforms\d8b34b5053f491df6d1fc27e4383a2c0\workspace\transformed\profileinstaller-1.4.1\AndroidManifest.xml:39:13-57
+85            <intent-filter>
+85-->[androidx.profileinstaller:profileinstaller:1.4.1] C:\Users\qrouet\.gradle\caches\9.3.1\transforms\d8b34b5053f491df6d1fc27e4383a2c0\workspace\transformed\profileinstaller-1.4.1\AndroidManifest.xml:40:13-42:29
+86                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+86-->[androidx.profileinstaller:profileinstaller:1.4.1] C:\Users\qrouet\.gradle\caches\9.3.1\transforms\d8b34b5053f491df6d1fc27e4383a2c0\workspace\transformed\profileinstaller-1.4.1\AndroidManifest.xml:41:17-91
+86-->[androidx.profileinstaller:profileinstaller:1.4.1] C:\Users\qrouet\.gradle\caches\9.3.1\transforms\d8b34b5053f491df6d1fc27e4383a2c0\workspace\transformed\profileinstaller-1.4.1\AndroidManifest.xml:41:25-88
+87            </intent-filter>
+88            <intent-filter>
+88-->[androidx.profileinstaller:profileinstaller:1.4.1] C:\Users\qrouet\.gradle\caches\9.3.1\transforms\d8b34b5053f491df6d1fc27e4383a2c0\workspace\transformed\profileinstaller-1.4.1\AndroidManifest.xml:43:13-45:29
+89                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+89-->[androidx.profileinstaller:profileinstaller:1.4.1] C:\Users\qrouet\.gradle\caches\9.3.1\transforms\d8b34b5053f491df6d1fc27e4383a2c0\workspace\transformed\profileinstaller-1.4.1\AndroidManifest.xml:44:17-85
+89-->[androidx.profileinstaller:profileinstaller:1.4.1] C:\Users\qrouet\.gradle\caches\9.3.1\transforms\d8b34b5053f491df6d1fc27e4383a2c0\workspace\transformed\profileinstaller-1.4.1\AndroidManifest.xml:44:25-82
+90            </intent-filter>
+91            <intent-filter>
+91-->[androidx.profileinstaller:profileinstaller:1.4.1] C:\Users\qrouet\.gradle\caches\9.3.1\transforms\d8b34b5053f491df6d1fc27e4383a2c0\workspace\transformed\profileinstaller-1.4.1\AndroidManifest.xml:46:13-48:29
+92                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+92-->[androidx.profileinstaller:profileinstaller:1.4.1] C:\Users\qrouet\.gradle\caches\9.3.1\transforms\d8b34b5053f491df6d1fc27e4383a2c0\workspace\transformed\profileinstaller-1.4.1\AndroidManifest.xml:47:17-88
+92-->[androidx.profileinstaller:profileinstaller:1.4.1] C:\Users\qrouet\.gradle\caches\9.3.1\transforms\d8b34b5053f491df6d1fc27e4383a2c0\workspace\transformed\profileinstaller-1.4.1\AndroidManifest.xml:47:25-85
+93            </intent-filter>
+94            <intent-filter>
+94-->[androidx.profileinstaller:profileinstaller:1.4.1] C:\Users\qrouet\.gradle\caches\9.3.1\transforms\d8b34b5053f491df6d1fc27e4383a2c0\workspace\transformed\profileinstaller-1.4.1\AndroidManifest.xml:49:13-51:29
+95                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+95-->[androidx.profileinstaller:profileinstaller:1.4.1] C:\Users\qrouet\.gradle\caches\9.3.1\transforms\d8b34b5053f491df6d1fc27e4383a2c0\workspace\transformed\profileinstaller-1.4.1\AndroidManifest.xml:50:17-95
+95-->[androidx.profileinstaller:profileinstaller:1.4.1] C:\Users\qrouet\.gradle\caches\9.3.1\transforms\d8b34b5053f491df6d1fc27e4383a2c0\workspace\transformed\profileinstaller-1.4.1\AndroidManifest.xml:50:25-92
+96            </intent-filter>
+97        </receiver>
+98    </application>
+99
+100</manifest>

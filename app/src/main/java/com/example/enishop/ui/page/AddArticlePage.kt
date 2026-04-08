@@ -44,13 +44,13 @@ import androidx.compose.ui.unit.dp
 import com.example.enishop.bo.Article
 import com.example.enishop.repository.ArticleRepository
 import com.example.enishop.ui.theme.Typography
+import com.example.enishop.ui.vm.AddArticleVM
 import kotlinx.coroutines.launch
 
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
-fun AddArticlePage(modifier: Modifier = Modifier) {
+fun AddArticlePage(modifier: Modifier = Modifier,vm : AddArticleVM) {
     val scope = rememberCoroutineScope()
-    val context = LocalContext.current
     val snackbarHostState = remember { SnackbarHostState() }
     Scaffold( snackbarHost = {
         SnackbarHost(hostState = snackbarHostState)
@@ -133,7 +133,7 @@ fun AddArticlePage(modifier: Modifier = Modifier) {
             }
             Spacer(Modifier.weight(1f))
             Button({
-                ArticleRepository(context).addArticle(
+                vm.addArticle(
                     Article(
                         id = 0,
                         name = titre,
