@@ -84,6 +84,12 @@ dependencies {
     implementation("com.google.dagger:hilt-android:2.57.1")
     ksp("com.google.dagger:hilt-android-compiler:2.57.1")
     implementation("androidx.hilt:hilt-navigation-compose:1.3.0")
-
+    //endregion
+    //region Moshi Retrofit
+    //moshi
+    implementation("com.squareup.moshi:moshi:1.15.2")
+    implementation("com.squareup.moshi:moshi-kotlin:1.15.2")
+    //retrofit
+    implementation("com.squareup.retrofit2:converter-moshi:3.0.0")
     //endregion
 }
